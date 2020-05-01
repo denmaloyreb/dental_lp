@@ -1,33 +1,16 @@
 @import 'vars';
 @import 'fonts';
 @import 'global';
+@import 'header';
 //-----------------------------------------------------------------------------------------------------------
 //
 //                                                    START CODE
 //
 //-----------------------------------------------------------------------------------------------------------
 .container {
-    max-width: 1920px;
+    max-width: 1440px;
     padding-left: 2px;
     padding-right: 2px;
-}
-
-.header-top {
-    height: 132px;
-    top: 0px;
-    background: #127E66;
-    display: flex;
-    justify-content: space-around;
-}
-
-.header-menu {
-    display: flex;
-    justify-content: space-between;
-}
-
-.header-menu__item {
-    display: flex;
-    justify-content: space-between;
 }
 
 //-----------------------------------------------------------------------------------------------------------

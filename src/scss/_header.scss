@@ -1,0 +1,139 @@
+.header-top {
+    height: 90px;
+    top: 0px;
+    background: #127E66;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.logo {
+    max-width: 350px
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -5px;
+    margin-top: 33px;
+}
+
+.header-menu__item {
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 5px;
+}
+
+.header-contacts {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -5px;
+    margin-top: 27px;
+    justify-content: space-between;
+}
+
+.header-adress {
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0 5px;
+}
+
+.header__map-image {
+    max-width: 30px;
+}
+
+.header__map-image img {
+    width: 100%;
+}
+
+.header__city {
+    margin-top: 11px;
+}
+
+.header-scheme-button {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    border: 2px solid #FFFFFF;
+    border-radius: 1px;
+    text-align: center;
+    max-width: 60px;
+    height: 42px;
+    padding-top: 6px;
+    margin: 0 5px;
+}
+
+.header-hours {
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0 5px;
+}
+
+.header__hours-image {
+    max-width: 30px;
+}
+
+.header__hours-image img {
+    width: 100%;
+}
+
+.header__hours-open {
+    margin-top: 11px;
+}
+
+.header-phone {
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0 5px;
+}
+
+.header__phone-image {
+    max-width: 30px;
+}
+
+.header__phone-image img {
+    width: 100%;
+}
+
+.header__phone-number {
+    margin-top: 11px;
+}
+
+.header__contact-button {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 12px;
+    max-width: 240px;
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
+    text-align: center;
+    height: 60px;
+    margin-top: 15px;
+    margin-right: 6px;
+    padding-top: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
