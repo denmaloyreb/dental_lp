@@ -35,6 +35,7 @@ header {
     font-size: 14px;
     line-height: 20px;
     margin: 0 5px;
+    text-transform: uppercase;
 }
 
 .header-contacts {
@@ -78,8 +79,7 @@ header {
     max-width: 60px;
     height: 25px;
     padding-top: 6px;
-    margin-top: 3px;
-    margin: 0 5px;
+    margin: 4px 5px;
 }
 
 .header-hours {
@@ -102,6 +102,7 @@ header {
 
 .header__hours-open {
     margin-top: 11px;
+    margin-left: 7px;
 }
 
 .header-phone {
@@ -154,6 +155,42 @@ header {
 
 .header-description {
     position: absolute;
-    margin-top: 90px;
+    margin-top: 70px;
     margin-left: 167px;
+    max-width: 350px;
+}
+
+.header__title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.header__title2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 40px;
+    color: #2E8B57;
+}
+
+.header__button-sale {
+    max-width: 330px;
+    height: 35px;
+    background: #127e66;
+    text-align: center;
+    padding-top: 6px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.header__list li {
+    margin-top: 10px;
+}
+
+.header__list li:before {
+    color: #2E8B57;
+    content: "-";
+    padding-right: 10px;
 }
