@@ -1,0 +1,49 @@
+.costs {
+    min-height: 100vh;
+    background-image: url(../img/costs-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.costs__title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 40px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.costs-rows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row1 {
+    background-image: url(../img/row1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 547px;
+    width: 349px;
+}
+
+.row2 {
+    background-image: url(../img/row2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 547px;
+    width: 349px;
+}
+
+.row3 {
+    background-image: url(../img/row3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 547px;
+    width: 349px;
+}
