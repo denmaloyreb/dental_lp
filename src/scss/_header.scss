@@ -156,8 +156,8 @@ header {
 
 .header-description {
     position: absolute;
-    margin-top: 70px;
-    margin-left: 167px;
+    margin-top: 5%;
+    margin-left: 13%;
     max-width: 350px;
 }
 
@@ -194,4 +194,29 @@ header {
     color: #2E8B57;
     content: "-";
     padding-right: 10px;
+}
+
+.slick-active button {
+    background: white;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80px;
+    margin-left: 40%;
+}
+
+.slick-dots button {
+    font: 400 0px system-ui;
+    padding: 7px 7px 2px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background: none;
+    border-radius: 50%;
+}
+
+.slick-active button {
+    background: black;
 }

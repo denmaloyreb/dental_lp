@@ -1,6 +1,8 @@
 .emergency-treatment {
     min-height: 100vh;
     background-image: url(../img/emergency-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     margin-top: 10px;
     position: relative;
     display: flex;
@@ -35,7 +37,7 @@
     line-height: 40px;
     color: rgba(62, 62, 62, 0.8);
     text-transform: uppercase;
-    margin-left: 200px;
+    margin-left: 3%;
 }
 
 .emergency__list-right {

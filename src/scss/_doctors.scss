@@ -31,6 +31,7 @@
 
 .tabs>input[type="radio"]:checked+label {
     background: #127E66;
+    transform: skew(-20deg);
 }
 
 .tabs>div {
@@ -68,6 +69,7 @@
     margin-left: 6px;
     cursor: pointer;
     margin-bottom: 10px;
+    transform: skew(-20deg);
 }
 
 .tabs>label:first-of-type {
