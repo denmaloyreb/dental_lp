@@ -22,28 +22,79 @@
 .costs-rows {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.row1 {
+.cost-row1 {
     background-image: url(../img/row1.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 547px;
     width: 349px;
+    position: relative;
 }
 
-.row2 {
+.cost-row2 {
     background-image: url(../img/row2.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 547px;
     width: 349px;
+    position: relative;
 }
 
-.row3 {
+.cost-row3 {
     background-image: url(../img/row3.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 547px;
     width: 349px;
+    position: relative;
+}
+
+.cost-row__title {
+    max-width: 136px;
+    margin-top: 38%;
+    margin-left: 29%;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #196F65;
+    text-transform: uppercase;
+}
+
+.cost-row-description {
+    margin-top: 2%;
+    margin-left: 28%;
+    max-width: 181px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.cost-row-description__list {
+    margin-top: 25%;
+}
+
+.cost-row-description__list li {
+    margin-top: 15px;
+}
+
+.cost-row-description__list li:before {
+    content: '–';
+    color: #5AA594;
+    margin-right: 5px;
+}
+
+.cost__price {
+    right: 25%;
+    position: absolute;
+    bottom: 15%;
+    color: #5AA594;
+    font-size: 20px;
+    font-weight: 400;
 }
