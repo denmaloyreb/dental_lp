@@ -1,0 +1,128 @@
+.doctors {
+    background-image: url(../img/doctors-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.doctors__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 40px;
+}
+
+.doctors-tabs {
+    margin-top: 5%;
+}
+
+.tabs {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabs>input[type="radio"] {
+    display: none;
+}
+
+.tabs>input[type="radio"]:checked+label {
+    background: #127E66;
+}
+
+.tabs>div {
+    /* скрыть контент по умолчанию */
+    display: none;
+    border: 1px solid #eee;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+
+/* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2,
+#tab-btn-3:checked~#content-3,
+#tab-btn-4:checked~#content-4 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tabs>label {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: #eee;
+    border: 1px solid transparent;
+    padding: 2px 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    margin-left: 6px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.tabs>label:first-of-type {
+    margin-left: 0;
+}
+
+.department {
+    display: flex;
+    justify-content: space-around;
+}
+
+.doctors-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.doctors-specialist-card {
+    width: 180px;
+}
+
+.doctors-specialist-card img {
+    width: 100%;
+}
+
+.doctors__name {
+    color: #5AA594;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    margin-bottom: 13px;
+}
+
+.doctors__range {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 43px;
+    letter-spacing: 0.03em;
+}
+
+.doctors__profiles {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: .03em;
+}
+
+.doctors__year {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: .03em;
+    text-align: right;
+    margin-top: 17px;
+    text-decoration: overline;
+    margin-bottom: 30px;
+}
