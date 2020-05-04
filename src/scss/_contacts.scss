@@ -1,0 +1,40 @@
+    .conacts {
+        min-height: 80vh;
+        background-image: url(../img/contacts-background.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .contacts__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 44px;
+        line-height: 40px;
+        padding-top: 10px;
+    }
+    
+    .contacts-collumns {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 2%;
+    }
+    
+    .contacts-collumn-left {
+        height: 80%;
+        width: 45%;
+        position: relative;
+    }
+    
+    .contacts-collumn-right {
+        height: 80%;
+        width: 45%;
+        position: relative;
+    }
+    
+    .contacts-collumn-right iframe {
+        width: 100%;
+        position: absolute;
+    }
