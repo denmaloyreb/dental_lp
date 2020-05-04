@@ -21,27 +21,33 @@
                 <img src="img/logo.png" alt="logo">
             </div>
             <div class="header-menu">
-                <div class="header-menu__item">
-                    <div><img src="img/hamburger-ico.png" alt="hamburger-ico"></div>
-                    <div>servises</div>
-                </div>
-                <div class="header-menu__item">
-                    <div><img src="img/dentist.png" alt="dentist"></div>
-                    <div>doctors</div>
-                </div>
-                <div class="header-menu__item">
-                    <div><img src="img/tag.png" alt="tag"></div>
-                    <div>cost</div>
-                </div>
+                <a href="#emergency">
+                    <div class="header-menu__item">
+                        <div><img src="img/hamburger-ico.png" alt="hamburger-ico"></div>
+                        <div>servises</div>
+                    </div>
+                </a>
+                <a href="#doctors">
+                    <div class="header-menu__item">
+                        <div><img src="img/dentist.png" alt="dentist"></div>
+                        <div>doctors</div>
+                    </div>
+                </a>
+                <a href="#costs">
+                    <div class="header-menu__item">
+                        <div><img src="img/tag.png" alt="tag"></div>
+                        <div>cost</div>
+                    </div>
+                </a>
             </div>
             <div class="header-contacts">
-                <div class="header-adress">
-                    <div class="header__map-image"><img src="img/header-map.png" alt="map"></div>
-                    <div class="header__city">Adress</div>
-                </div>
-                <div class="header-scheme-button">
-                    Location
-                </div>
+                <a href="#contacts">
+                    <div class="header-adress">
+                        <div class="header__map-image"><img src="img/header-map.png" alt="map"></div>
+                        <div class="header__city">Adress</div>
+                    </div>
+                </a>
+
                 <div class="header-hours">
                     <div class="header__hours-image"><img src="img/clock.png" alt="clock"></div>
                     <div class="header__hours-open">Daili 9.00-21.00
@@ -55,7 +61,7 @@
                 </div>
             </div>
             <div class="header__contact-button">
-                Order a call
+                <a href="#contacts">Order a call</a>
             </div>
 
         </div>
@@ -112,7 +118,7 @@
 
     <div class="container">
 
-    <section class="emergency-treatment">
+    <section class="emergency-treatment" id="emergency">
 
 
         <div class="emergency__title">
@@ -157,7 +163,7 @@
 
     </section>
 </div> <div class="container">
-    <section class="costs">
+    <section class="costs" id="costs">
         <div class="costs__title">We will cure your teeth in time</div>
 
         <div class="costs-rows">
@@ -216,7 +222,7 @@
 </div>
 </section>
 </div> <div class="container">
-    <section class="doctors">
+    <section class="doctors" id="doctors">
         <div class="doctors__title">Our Specialists</div>
         <div class="doctors-tabs">
             <div class="tabs">
@@ -424,19 +430,20 @@
 
     </section>
 </div> <div class="container">
-    <section class="conacts">
+    <section class="conacts" id="contacts">
         <div class="contacts__title">Contacts</div>
         <div class="contacts-collumns">
             <div class="contacts-collumn-left">
-                <div class="contacts__phone-text">our single network number</div>
+                <div class="contacts__phone-text">our single network number:</div>
                 <div class="contacts__phone-number">+7 (1234) 12-34-45</div>
                 <div class="contacts__form">
-                    <form class="page-form" action="#">
+                    <form class="page-form" action="#contacts">
                         <input class="name" name="name" id="name" type="text" placeholder="Your name">
                         <input class="tel" type="tel" name="tel" pattern="2[0-9]{3}-[0-9]{3}" placeholder="Your phone number"> </br>
                         <input class="form-button" type="submit" value="Call me">
                     </form>
                 </div>
+                <div class="contacts__adress">Address: 145 E 15th Street, Suite 1E, New York, NY 10003</div>
             </div>
             <div class="contacts-collumn-right">
                 <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad499b264d79a2c0173840b04c9594765a6760e5cc827c999b718f4b8c06086b7&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
@@ -447,7 +454,10 @@
 </div>
     <!-- STOP WRITE CODE -->
     <footer>
-  
+    <div class="container">
+        <div class="footer__text">Dental clinic. All rights reserved. 2019-2010</div>
+    </div>
+
 </footer> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/libs.min.js"></script>
 <script src="js/slick.min.js"></script>

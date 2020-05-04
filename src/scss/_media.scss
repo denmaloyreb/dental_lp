@@ -1,0 +1,24 @@
+@media (max-width: 1300px) {
+    .header__list li {
+        background: white;
+        border-radius: 9px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .emergency__blocks {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1050px) {
+    .costs-rows {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1010px) {
+    .header-phone {
+        display: none;
+    }
+}

@@ -1,0 +1,15 @@
+footer {
+    background-image: url(../img/footer-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 5vh;
+}
+
+.footer__text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 35px;
+    letter-spacing: .02em;
+    text-align: center;
+}

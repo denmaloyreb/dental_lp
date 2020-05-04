@@ -38,6 +38,10 @@ header {
     text-transform: uppercase;
 }
 
+.header-menu a {
+    height: 25px;
+}
+
 .header-contacts {
     display: flex;
     justify-content: space-between;
