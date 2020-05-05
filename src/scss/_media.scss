@@ -1,85 +1,103 @@
-        @media (max-width: 1300px) {
-            .header__list li {
-                background: white;
-                border-radius: 9px;
-            }
-        }
-        
-        @media (max-width: 1060px) {
-            .emergency__blocks {
-                justify-content: center;
-            }
-        }
-        
-        @media (max-width: 1050px) {
-            .costs-rows {
-                justify-content: center;
-            }
-            .emergency__right-title {
-                margin-right: 5px;
-                text-align: right;
-            }
-        }
-        
-        @media (max-width: 1024px) {
-            .doctors {
-                min-height: 55vh;
-            }
-            .video {
-                min-height: 50vh;
-            }
-            .conacts {
-                min-height: 40vh;
-            }
-            .contacts-collumn-right iframe {
-                height: 240px;
-            }
-        }
-        
-        @media (max-width: 1010px) {
-            .header-phone {
-                display: none;
-            }
-        }
-        
-        @media (max-width: 900px) {
-            .header-hours {
-                display: none;
-            }
-        }
-        
-        @media (max-width: 790px) {
-            .emergency__list-left {
-                max-width: 233px;
-                font-weight: 400;
-                font-size: 25px;
-                line-height: 27px;
-            }
-            .emergency__right-title {
-                font-weight: 400;
-                font-size: 25px;
-                line-height: 27px;
-                margin-right: 45px;
-            }
-        }
-        
-        @media (max-width: 780px) {
-            .logo {
-                max-width: 275px;
-            }
-        }
-        
-        @media (max-width: 685px) {
-            .header-adress {
-                display: none;
-            }
-        }
-        
-        @media (max-width: 620px) {
-            .logo {
-                max-width: 200px;
-            }
-            .header-top {
-                height: 70px;
-            }
-        }
+@media (max-width: 1300px) {
+    .header__list li {
+        background: white;
+        border-radius: 9px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .emergency__blocks {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1050px) {
+    .costs-rows {
+        justify-content: center;
+    }
+    .emergency__right-title {
+        margin-right: 5px;
+        text-align: right;
+    }
+}
+
+@media (max-width: 1024px) {
+    .doctors {
+        min-height: 55vh;
+    }
+    .video {
+        min-height: 50vh;
+    }
+    .conacts {
+        min-height: 40vh;
+    }
+    .contacts-collumn-right iframe {
+        height: 240px;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
+    .doctors {
+        min-height: 55vh;
+    }
+    .video {
+        min-height: 50vh;
+    }
+    .conacts {
+        min-height: 40vh;
+    }
+    .contacts-collumn-right iframe {
+        height: 240px;
+    }
+    .costs {
+        min-height: 70vh;
+    }
+}
+
+@media (max-width: 1010px) {
+    .header-phone {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .header-hours {
+        display: none;
+    }
+}
+
+@media (max-width: 790px) {
+    .emergency__list-left {
+        max-width: 233px;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 27px;
+    }
+    .emergency__right-title {
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 27px;
+        margin-right: 45px;
+    }
+}
+
+@media (max-width: 780px) {
+    .logo {
+        max-width: 275px;
+    }
+}
+
+@media (max-width: 685px) {
+    .header-adress {
+        display: none;
+    }
+}
+
+@media (max-width: 620px) {
+    .logo {
+        max-width: 200px;
+    }
+    .header-top {
+        height: 70px;
+    }
+}
