@@ -343,16 +343,16 @@
 
 @media (min-width:1440px) {
     .doctors {
-        height: 55vh;
+        min-height: 55vh;
     }
     .video {
-        height: 50vh;
+        min-height: 50vh;
     }
     .conacts {
-        height: 40vh;
+        min-height: 50vh;
     }
     .costs {
-        height: 70vh;
+        min-height: 70vh;
     }
     .video-area {
         margin-bottom: 2%;
