@@ -21,6 +21,41 @@ header {
     height: 101%;
 }
 
+.mobile-menu {
+    background: #127e66;
+    position: absolute;
+    z-index: 7;
+    top: 0;
+    height: 100vh;
+    width: 96vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    left: -100vw;
+    transition: all .5s;
+}
+
+.header-menu__item-mobile {
+    display: flex;
+    justify-content: center;
+}
+
+.header__contact-button-mobile {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 12px;
+    max-width: 240px;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 2px;
+    text-align: center;
+    height: 48px;
+    padding-top: 17px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 10px auto;
+}
+
 .header-menu {
     display: flex;
     justify-content: space-between;
@@ -41,6 +76,11 @@ header {
 
 .header-menu a {
     height: 25px;
+}
+
+.hamburger-mobile {
+    display: none;
+    cursor: pointer;
 }
 
 .header-contacts {

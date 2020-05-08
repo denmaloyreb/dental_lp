@@ -34,6 +34,9 @@
     .contacts-collumn-right iframe {
         height: 240px;
     }
+    .video-area {
+        margin-bottom: 2%;
+    }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
@@ -51,6 +54,9 @@
     }
     .costs {
         min-height: 70vh;
+    }
+    .video-area {
+        margin-bottom: 2%;
     }
 }
 
@@ -99,5 +105,238 @@
     }
     .header-top {
         height: 70px;
+    }
+    .header__title {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .header__title2 {
+        font-size: 35px;
+    }
+    .emergency__title {
+        font-size: 40px;
+    }
+    .costs__title {
+        font-size: 40px;
+    }
+    .doctors__title {
+        font-size: 40px;
+    }
+    .video__title {
+        font-size: 40px;
+    }
+    .contacts__title {
+        font-size: 40px;
+    }
+    .contacts-collumns {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contacts-collumn-left {
+        left: 29%;
+    }
+    .contacts-collumn-right {
+        left: 6%;
+    }
+    .conacts {
+        min-height: 85vh;
+    }
+    .contacts-collumn-right iframe {
+        width: 196%;
+        left: 0;
+    }
+}
+
+@media (max-width: 610px) {
+    .emergency__list {
+        flex-direction: column;
+    }
+    .emergency__list-right {
+        background-image: none;
+        height: 200px;
+    }
+    .emergency__list-left {
+        margin: 0 auto;
+    }
+    .emergency__right-title {
+        margin: 16px auto;
+        text-align: center;
+        font-size: 22px;
+    }
+    .emergency__right-list {
+        margin: 0 auto;
+        text-align: center;
+        color: black;
+        line-height: 27px;
+        font-size: 25px;
+    }
+    .emergency__right-list li::before {
+        color: black;
+    }
+    .emergency__scheme {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 590px) {
+    .video-area iframe {
+        max-width: 86%;
+    }
+}
+
+@media (max-width: 550px) {
+    .header__contact-button {
+        display: none;
+    }
+}
+
+@media (max-width: 465px) {
+    .contacts__adress {
+        margin-top: 20px;
+    }
+    .hamburger-mobile {
+        display: block;
+        margin-top: 22px;
+        margin-right: 4%;
+    }
+    .header-menu__item {
+        display: none;
+    }
+}
+
+@media (max-width: 465px) {
+    .contacts__adress {
+        margin-top: 20px;
+    }
+    .hamburger-mobile {
+        display: block;
+        margin-top: 22px;
+        margin-right: 4%;
+    }
+    .header-menu__item {
+        display: none;
+    }
+}
+
+@media (max-width: 440px) {
+    .header-description {
+        margin-left: 3%;
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 380px) {
+    .emergency__scheme {
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .contacts__title {
+        font-size: 35px;
+        line-height: 25px;
+    }
+    .contacts__phone-text {
+        font-size: 15px;
+        line-height: 15px;
+        margin-bottom: 0;
+    }
+    .name,
+    .tel {
+        height: 30px;
+    }
+    .form-button {
+        margin-top: 4px;
+    }
+    .contacts__adress {
+        margin-top: 11px;
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+
+@media (max-width: 360px) {
+    .header__title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .header__title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .header__button-sale {
+        max-width: 285px;
+    }
+    .header__list {
+        max-width: 285px;
+    }
+    .contacts__adress {
+        font-size: 17px;
+        line-height: 16px;
+        margin-top: 14px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 600px) and (orientation: landscape) {
+    .header__title {
+        font-size: 30px;
+        line-height: 27px;
+    }
+    .header-description {
+        margin-top: 1%;
+    }
+    .header__title2 {
+        font-size: 20px;
+        line-height: 19px;
+    }
+    .slick-dots {
+        display: none;
+    }
+    .conacts {
+        min-height: 202vh;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px) and (orientation: landscape) {
+    .header__title {
+        font-size: 30px;
+        line-height: 27px;
+    }
+    .header-description {
+        margin-top: 1%;
+    }
+    .header__title2 {
+        font-size: 20px;
+        line-height: 19px;
+    }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 830px) and (orientation: landscape) {
+    .header__title {
+        font-size: 30px;
+        line-height: 27px;
+    }
+    .header-description {
+        margin-top: 1%;
+    }
+    .header__title2 {
+        font-size: 20px;
+        line-height: 19px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .conacts {
+        min-height: 110vh;
+    }
+    .cost-row__title {
+        margin-top: 40%;
+    }
+    .contacts-collumn-left {
+        left: 23%;
+    }
+    .contacts__adress {
+        font-size: 11px;
+        line-height: 13px;
     }
 }
