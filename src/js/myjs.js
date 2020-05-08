@@ -1,6 +1,4 @@
-/*let mmenu = document.querySelector(".hamburger-mobile");
-
-mmenu.addEventListener("click", function() {
+document.querySelector(".hamburger-mobile").addEventListener("click", function() {
     document.querySelector(".mobile-menu").style.left = "0";
 
 })
@@ -34,4 +32,4 @@ document.querySelector(".fourclose").addEventListener("click", function() {
 document.querySelector(".header__contact-button-mobile").addEventListener("click", function() {
     document.querySelector(".mobile-menu").style.left = "-100vw";
 
-})*/
+})
