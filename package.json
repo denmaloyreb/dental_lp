@@ -33,7 +33,7 @@
         "gulp-rename": "^1.4.0",
         "gulp-rigger": "^0.5.8",
         "gulp-rsync": "0.0.8",
-        "gulp-sass": "^4.0.2",
+        "gulp-sass": "^5.1.0",
         "gulp-sourcemaps": "^2.6.5",
         "gulp-ttf2eot": "^1.1.2",
         "gulp-ttf2woff": "^1.1.1",
