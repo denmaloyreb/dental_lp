@@ -27,7 +27,7 @@
         "gulp-filesize": "0.0.6",
         "gulp-font2css": "^0.1.2",
         "gulp-html-import": "0.0.2",
-        "gulp-imagemin": "^6.2.0",
+        "gulp-imagemin": "^9.2.0",
         "gulp-newer": "^1.4.0",
         "gulp-pug": "^5.0.0",
         "gulp-rename": "^1.4.0",
